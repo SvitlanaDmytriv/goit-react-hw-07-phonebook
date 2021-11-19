@@ -54,5 +54,16 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "description": "This project was bootstrapped with\r [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvitlanaDmytriv/goit-react-hw-07-phonebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvitlanaDmytriv/goit-react-hw-07-phonebook/issues"
   }
 }

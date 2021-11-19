@@ -20,6 +20,7 @@
 .contactItem {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 320px;
 }
 .text:first-child {
@@ -50,4 +51,18 @@
 }
 .icon {
   fill: white;
+}
+
+.buttonEdit {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.iconEdit {
+  fill: #fff;
+}
+.iconEdit:hover,
+.iconEdit:focus {
+  fill: black;
 }

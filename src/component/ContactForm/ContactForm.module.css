@@ -34,7 +34,7 @@
 .button {
   margin-top: 10px;
   padding: 5px;
-  color: #6bc8ff;
+  color: #fff;
   font-size: 15px;
   border: none;
   border-radius: 5px;
@@ -47,4 +47,30 @@
 .button:hover,
 .button:focus {
   background-color: #081a29;
+}
+
+.icon {
+  fill: #fff;
+}
+
+.buttonClose {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #102e4f;
+}
+
+.buttonClose:hover,
+.buttonClose:focus {
+  background-color: #2074b9;
+}
+
+.containerForm {
+  position: relative;
 }
